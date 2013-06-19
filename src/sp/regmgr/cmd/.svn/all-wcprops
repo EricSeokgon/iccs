@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/regmgr/cmd
+END
+PubWorkRegReportViewCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/regmgr/cmd/PubWorkRegReportViewCmd.java
+END
+PubWorkAffiliationCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/regmgr/cmd/PubWorkAffiliationCmd.java
+END
+PubWorkRegInfoCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/regmgr/cmd/PubWorkRegInfoCmd.java
+END
+PubWorkChReportCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/regmgr/cmd/PubWorkChReportCmd.java
+END
+PubWorkRegReportListCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/regmgr/cmd/PubWorkRegReportListCmd.java
+END
+PubWorkTransferCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/regmgr/cmd/PubWorkTransferCmd.java
+END

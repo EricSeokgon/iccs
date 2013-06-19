@@ -1,0 +1,120 @@
+10
+
+dir
+70
+https://211.169.132.174:81/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/iccs/WebContent/com/FCKeditor/editor/filemanager/connectors
+https://211.169.132.174:81/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C
+
+
+
+2013-06-19T05:39:12.580637Z
+62
+leesk55
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+173e5da2-384e-a041-8247-f7898c48cc03
+
+CVS
+dir
+
+asp
+dir
+
+aspx
+dir
+
+cfm
+dir
+
+lasso
+dir
+
+perl
+dir
+
+php
+dir
+
+py
+dir
+
+test.html
+file
+
+
+
+
+2013-06-19T13:35:56.042000Z
+1734f9f660b2205435091f2aebdf60e0
+2013-06-19T05:39:12.580637Z
+62
+leesk55
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5672
+
+uploadtest.html
+file
+
+
+
+
+2013-06-19T13:35:58.897000Z
+5ced923d2a5c07664193c4e5b3ed19dd
+2013-06-19T05:39:12.580637Z
+62
+leesk55
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5580
+

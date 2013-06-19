@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/usebefore/WEB-INF/classes/sp/regmgr/cmd
+END
+PubWorkRegInfoCmd.class
+K 25
+svn:wc:ra_dav:version-url
+V 196
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/usebefore/WEB-INF/classes/sp/regmgr/cmd/PubWorkRegInfoCmd.class
+END
+PubWorkAffiliationCmd.class
+K 25
+svn:wc:ra_dav:version-url
+V 200
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/usebefore/WEB-INF/classes/sp/regmgr/cmd/PubWorkAffiliationCmd.class
+END
+PubWorkRegReportViewCmd.class
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/usebefore/WEB-INF/classes/sp/regmgr/cmd/PubWorkRegReportViewCmd.class
+END
+PubWorkTransferCmd.class
+K 25
+svn:wc:ra_dav:version-url
+V 197
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/usebefore/WEB-INF/classes/sp/regmgr/cmd/PubWorkTransferCmd.class
+END
+PubWorkRegReportListCmd.class
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/usebefore/WEB-INF/classes/sp/regmgr/cmd/PubWorkRegReportListCmd.class
+END
+PubWorkChReportCmd.class
+K 25
+svn:wc:ra_dav:version-url
+V 197
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/usebefore/WEB-INF/classes/sp/regmgr/cmd/PubWorkChReportCmd.class
+END

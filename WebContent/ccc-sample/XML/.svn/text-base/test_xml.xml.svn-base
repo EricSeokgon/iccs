@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<TaxInvoice xmlns="http://www.kiec.or.kr/kis" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xsi:schemaLocation="http://www.kiec.or.kr/kis TaxInvoice.xsd" revision="1.0.0">
+	<ApplicationArea>
+		<Creation.DateTime>20041204</Creation.DateTime>
+		<Signature/>
+		<ServiceID.Identifier>KLNET111</ServiceID.Identifier>
+	</ApplicationArea>
+	<DataArea>
+		<Header>
+			<Document.DateTime>20030109</Document.DateTime><Description.Text>환율 @1207.8 BL DNALHKG021207328-1</Description.Text>			
+			<DocumentReferences><PurchaseOrderReference><Document.Identifier></Document.Identifier>
+					<Document.DateTime></Document.DateTime></PurchaseOrderReference>
+				<InvoiceDocumentReference><Document.Identifier></Document.Identifier>
+					<Document.DateTime></Document.DateTime></InvoiceDocumentReference>
+				<OtherDocumentReference>
+					<Document.Identifier></Document.Identifier><Document.DateTime></Document.DateTime>
+				</OtherDocumentReference>
+			</DocumentReferences>
+			<Volume.Identifier></Volume.Identifier>
+			<Issue.Identifier></Issue.Identifier>
+			<Sequence.Identifier>I2003000178</Sequence.Identifier>
+			<Management.Identifier></Management.Identifier>
+			<ImportDeclaration.Identifier></ImportDeclaration.Identifier>
+			<BatchIssueStart.DateTime></BatchIssueStart.DateTime>
+			<BatchIssueEnd.DateTime></BatchIssueEnd.DateTime>
+			<Blank.Number>5</Blank.Number>
+			<TaxInvoice.Type.Code>01</TaxInvoice.Type.Code>
+			<Tax.Demand.Indicator>18</Tax.Demand.Indicator>
+			<TotalImport.Quantity>11</TotalImport.Quantity>
+			<Parties>
+				<SupplierParty>
+					<Party.Identifier></Party.Identifier>
+					<Party.Name>양길용/이승현</Party.Name>
+					<Business>
+						<Organization.Identifier>2018141471</Organization.Identifier>
+						<Organization.Name>동남아해운주식회사</Organization.Name>
+						<BusinessType.Name>외항해운 내항해운/소프트웨어용억등</BusinessType.Name>
+			          	<BusinessClassification.Name>운수보관업/서비스업/도매업</BusinessClassification.Name>
+					</Business>
+					<Address>
+						<Address.Line1.Text>서울 중구 남대문로 2가 118</Address.Line1.Text>
+					</Address>
+					<Contacts>
+						<Contact>
+							<Person>
+								<Person.Name>박상용</Person.Name>
+							</Person>
+							<Department>
+								<Department.Name></Department.Name>
+							</Department>
+							<Telephone.Text></Telephone.Text>
+							<Email.Text>noell@klnet.co.kr</Email.Text>
+						</Contact>
+					</Contacts>
+				</SupplierParty>
+				<BuyerParty>
+					<Party.Identifier></Party.Identifier>
+					<Party.Name>이교민</Party.Name>
+					<Business>
+						<Organization.Identifier>1261249797</Organization.Identifier>
+						<Organization.Name>켄덴</Organization.Name>
+						<BusinessType.Name>무역외</BusinessType.Name>
+						<BusinessClassification.Name>도매</BusinessClassification.Name>
+					</Business>
+					<Address>
+						<Address.Line1.Text>서울시 관악구 봉천동</Address.Line1.Text>
+					</Address>
+					<Contacts>
+						<Contact>
+							<Person>
+								<Person.Name>테스트영삼</Person.Name>
+							</Person>
+							<Department>
+								<Department.Name></Department.Name>
+							</Department>
+							<Telephone.Text></Telephone.Text>
+							<Email.Text>iccumi@empal.com</Email.Text>
+						</Contact>
+					</Contacts>
+				</BuyerParty>
+				<BrokerParty>
+					<Party.Identifier></Party.Identifier>
+					<Party.Name></Party.Name>
+					<Business>
+						<Organization.Identifier></Organization.Identifier>
+						<Organization.Name></Organization.Name>
+						<BusinessType.Name></BusinessType.Name>
+						<BusinessClassification.Name></BusinessClassification.Name>
+					</Business>
+					<Address>
+						<Address.Line1.Text></Address.Line1.Text>
+					</Address>
+					<Contacts>
+						<Contact>
+							<Person>
+								<Person.Name></Person.Name>
+							</Person>
+							<Department>
+								<Department.Name></Department.Name>
+							</Department>
+							<Telephone.Text></Telephone.Text>
+							<Email.Text></Email.Text>
+						</Contact>
+					</Contacts>
+				</BrokerParty>
+			</Parties>
+		</Header>
+		<Line>
+			<Line.Number>1</Line.Number>
+			<TaxItem>
+				<ItemIds>
+					<ItemId>
+						<Item.Identifier></Item.Identifier>
+					</ItemId>
+				</ItemIds>
+				<Item.Name>6A3:DOC</Item.Name>
+				<ClassIds>
+					<ClassId>
+						<Class.Identifier></Class.Identifier>
+					</ClassId>
+				</ClassIds>
+				<Definition.Text></Definition.Text>
+			</TaxItem>
+			<Transaction.DateTime>20030109</Transaction.DateTime>
+			<Item.Quantity unit.Code="EA">11</Item.Quantity>
+			<SubTotalItem.Quantity unit.Code="EA">11</SubTotalItem.Quantity>
+			<Item.Basis.Amount currency="KRW">11</Item.Basis.Amount>
+			<Item.Amount currency="KRW">15000</Item.Amount>
+			<SubTotalItem.Amount currency="KRW">11</SubTotalItem.Amount>
+			<Tax.Amount currency="KRW">0</Tax.Amount>
+			<SubTotalTax.Amount currency="KRW">11</SubTotalTax.Amount>
+			<ForeignCharge.Amount currency="KRW">11</ForeignCharge.Amount>
+			<SubTotalForeignCharge.Amount currency="KRW">11</SubTotalForeignCharge.Amount>
+			<ExchangeCurrency.Rate.Numeric>11</ExchangeCurrency.Rate.Numeric>
+			<Description.Text>qaaa</Description.Text>
+		</Line>
+		<Line>
+			<Line.Number>2</Line.Number>
+			<TaxItem>
+				<ItemIds>
+					<ItemId>
+						<Item.Identifier></Item.Identifier>
+					</ItemId>
+				</ItemIds>
+				<Item.Name>6A4:THC</Item.Name>
+				<ClassIds>
+					<ClassId>
+						<Class.Identifier></Class.Identifier>
+					</ClassId>
+				</ClassIds>
+				<Definition.Text></Definition.Text>
+			</TaxItem>
+			<Transaction.DateTime>20030109</Transaction.DateTime>
+			<Item.Quantity unit.Code="EA">11</Item.Quantity>
+			<SubTotalItem.Quantity unit.Code="EA">111</SubTotalItem.Quantity>
+			<Item.Basis.Amount currency="KRW">11</Item.Basis.Amount>
+			<Item.Amount currency="KRW">137000</Item.Amount>
+			<SubTotalItem.Amount currency="KRW">11</SubTotalItem.Amount>
+			<Tax.Amount currency="KRW">0</Tax.Amount>
+			<SubTotalTax.Amount currency="KRW">11</SubTotalTax.Amount>
+			<ForeignCharge.Amount currency="KRW">11</ForeignCharge.Amount>
+			<SubTotalForeignCharge.Amount currency="KRW">11</SubTotalForeignCharge.Amount>
+			<ExchangeCurrency.Rate.Numeric>11</ExchangeCurrency.Rate.Numeric>
+			<Description.Text>qqqq</Description.Text>
+		</Line>
+		<Line>
+			<Line.Number>3</Line.Number>
+			<TaxItem>
+				<ItemIds>
+					<ItemId>
+						<Item.Identifier></Item.Identifier>
+					</ItemId>
+				</ItemIds>
+				<Item.Name>6B1:CCC</Item.Name>
+				<ClassIds>
+					<ClassId>
+						<Class.Identifier></Class.Identifier>
+					</ClassId>
+				</ClassIds>
+				<Definition.Text></Definition.Text>
+			</TaxItem>
+			<Transaction.DateTime>20030109</Transaction.DateTime>
+			<Item.Quantity unit.Code="EA">1</Item.Quantity>
+			<SubTotalItem.Quantity unit.Code="EA">11</SubTotalItem.Quantity>
+			<Item.Basis.Amount currency="KRW">11</Item.Basis.Amount>
+			<Item.Amount currency="KRW">3000</Item.Amount>
+			<SubTotalItem.Amount currency="KRW">11</SubTotalItem.Amount>
+			<Tax.Amount currency="KRW">0</Tax.Amount>
+			<SubTotalTax.Amount currency="KRW">11</SubTotalTax.Amount>
+			<ForeignCharge.Amount currency="KRW">11</ForeignCharge.Amount>
+			<SubTotalForeignCharge.Amount currency="KRW">11</SubTotalForeignCharge.Amount>
+			<ExchangeCurrency.Rate.Numeric>11</ExchangeCurrency.Rate.Numeric>
+			<Description.Text>efwfsfs</Description.Text>
+		</Line>
+		<Line>
+			<Line.Number>4</Line.Number>
+			<TaxItem>
+				<ItemIds>
+					<ItemId>
+						<Item.Identifier></Item.Identifier>
+					</ItemId>
+				</ItemIds>
+				<Item.Name></Item.Name>
+				<ClassIds>
+					<ClassId>
+						<Class.Identifier></Class.Identifier>
+					</ClassId>
+				</ClassIds>
+				<Definition.Text></Definition.Text>
+			</TaxItem>
+			<Transaction.DateTime></Transaction.DateTime>
+			<Item.Quantity unit.Code="EA">11</Item.Quantity>
+			<SubTotalItem.Quantity unit.Code="EA">22</SubTotalItem.Quantity>
+			<Item.Basis.Amount currency="KRW">22</Item.Basis.Amount>
+			<Item.Amount currency="KRW">22</Item.Amount>
+			<SubTotalItem.Amount currency="KRW">22</SubTotalItem.Amount>
+			<Tax.Amount currency="KRW">22</Tax.Amount>
+			<SubTotalTax.Amount currency="KRW">22</SubTotalTax.Amount>
+			<ForeignCharge.Amount currency="KRW">22</ForeignCharge.Amount>
+			<SubTotalForeignCharge.Amount currency="KRW">22</SubTotalForeignCharge.Amount>
+			<ExchangeCurrency.Rate.Numeric>22</ExchangeCurrency.Rate.Numeric>
+			<Description.Text>fsgfgs</Description.Text>
+		</Line>
+		<Line>
+			<Line.Number>5</Line.Number>
+			<TaxItem>
+				<ItemIds>
+					<ItemId>
+						<Item.Identifier></Item.Identifier>
+					</ItemId>
+				</ItemIds>
+				<Item.Name></Item.Name>
+				<ClassIds>
+					<ClassId>
+						<Class.Identifier></Class.Identifier>
+					</ClassId>
+				</ClassIds>
+				<Definition.Text></Definition.Text>
+			</TaxItem>
+			<Transaction.DateTime>2004</Transaction.DateTime>
+			<Item.Quantity unit.Code="EA">11</Item.Quantity>
+			<SubTotalItem.Quantity unit.Code="EA">33</SubTotalItem.Quantity>
+			<Item.Basis.Amount currency="KRW">33</Item.Basis.Amount>
+			<Item.Amount currency="KRW">33</Item.Amount>
+			<SubTotalItem.Amount currency="KRW">33</SubTotalItem.Amount>
+			<Tax.Amount currency="KRW">33</Tax.Amount>
+			<SubTotalTax.Amount currency="KRW">33</SubTotalTax.Amount>
+			<ForeignCharge.Amount currency="KRW">33</ForeignCharge.Amount>
+			<SubTotalForeignCharge.Amount currency="KRW">33</SubTotalForeignCharge.Amount>
+			<ExchangeCurrency.Rate.Numeric>33</ExchangeCurrency.Rate.Numeric>
+			<Description.Text>fafaf</Description.Text>
+		</Line>
+		<Summary>
+			<Charge.Amount currency="KRW">163400</Charge.Amount>
+			<TotalTax.Amount currency="KRW">0</TotalTax.Amount>
+			<Total.Quantity unit.Code="EA">2313</Total.Quantity>
+			<Total.Amount currency="KRW">321</Total.Amount>
+			<PaymentMethod>
+				<PaymentMethod.Code>10</PaymentMethod.Code>
+				<DomesticCurrency.Amount currency="KRW">11</DomesticCurrency.Amount>
+				<ForeignCurrency.Amount currency="USD">11</ForeignCurrency.Amount>
+			</PaymentMethod>
+			<TotalForeignCharge.Amount currency="USD">3213</TotalForeignCharge.Amount>
+		</Summary>
+	</DataArea>
+</TaxInvoice>

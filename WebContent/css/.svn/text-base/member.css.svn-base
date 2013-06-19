@@ -1,0 +1,112 @@
+/* login layout-YSM */
+@import url("style.css");
+
+/* 전체 full page-YSM */
+body {
+	text-align:center; width:100%;
+	margin: auto auto;
+	padding: 0;
+	list-style:none;
+	line-height:14px;
+	border:0px solid red;
+}
+
+#wrapper{position:absolute; width:668px; top:50%; left:50%; margin-top:-222px; margin-left:-335px; text-align:center; border:0px solid #000000;}
+#skipnavigation {display: none; }
+
+
+/****** 1.전체 로그인 레이아웃  ********************************************************************/
+#header	{position: relative; float: left; width: 668px; border: 0px solid black;}
+#body	{position: relative; float: left; width: 668px; background:url("../images/member/green_top_bg.gif") no-repeat left top; padding: 0px; border: 0px solid black;}
+
+
+/****** header 레이아웃  ***************************************************************/
+#login	{position: relative; float: left; margin:0; padding:0; border: 0px solid black;}
+#logo	{position: absolute;float: left; bottom:0; right:0; margin:0; padding:0; border: 0px solid black;}
+
+/****** body 레이아웃  ***************************************************************/
+#green_top	{position: relative; float: left; width: 668px;  height:24px; left:0; bottom:0; margin:0; padding:0; border: 0px solid green;}
+#green_top_right	{position: absolute; float: left; width:20px; height:24px; top:0; right:0; margin:0; padding:0; background:url("../images/member/green_top_bg_right.gif") no-repeat right top; border: 0px solid black;}
+
+#green_body		{position: relative; float: left; width:668px; top:0; right:0; margin:0; padding:0; background:url("../images/member/green_body_bg.gif") no-repeat right top;  border: 0px solid RED;}
+
+/* white :S */
+#white	{position: relative; float: left; width:628px; top:0; left:20px; margin:0; padding:0; background:url("../images/member/white_bg.gif") no-repeat left top;  border: 0px solid RED;}
+#white_top	{position: relative; float: left; width: 628px;  height:24px; left:0; bottom:0; margin:0; padding:0; border: 0px solid green;}
+#white_top_right	{position: absolute; float: left; width:20px; height:24px; top:0; right:0; margin:0; padding:0; background:url("../images/member/white_top_right.gif") no-repeat right top; border: 0px solid black;}
+
+#white_body		{position: relative; float: left; display:inline; width:628px; top:0; right:0; margin:0; padding:0; text-align:left; background:url("../images/member/white_body_bg.gif") no-repeat right top;  border: 0px solid RED;}
+	
+	/* 회원로그인 :S */
+	#login_mem	{position: relative; float: left; display: inline; width:247px; margin-left:28px; padding:0; text-align:left; border: 0px solid RED;}
+	.login_title{position: relative; float: left; margin:0; padding:0 0 10px 0; display: block; border: 0px solid green;}
+	
+		/* 로그인 폼 :S */
+		#input_form {position: relative; float: left; display: inline; width:197px; margin-left:27px; margin-top:12px; padding:0; text-align:left; border: 0px solid black;}
+		
+		#inputbox{position: relative; float: left; width:133px; text-align: left;padding:2px 0 0 0; border: 0px solid RED;}
+		#input_id {position: relative; float: left; width:133px; height:25px; margin:0 0 5px 0;  background:url("../images/member/input_id.gif") no-repeat left top; border: 0px solid RED;}
+		#input_pw {position: relative; float: left; width:133px; height:25px; margin:0; background:url("../images/member/input_pw.gif") no-repeat left top; border: 0px solid black;}
+		
+		.input_box {width:90px; height:18px; margin:2px 0px 0px 28px; padding:2px 2px 0px 3px; background-color:transparent; BORDER: 0px solid #999999;}
+		#btn_login {position: absolute; float: left; top:0; right:0; padding:0; border: 0px solid RED;}
+		/* 로그인 폼 :E */
+		
+		/* 회원가입 :S */
+		#regi_form {position: relative; float: left; display: inline; width: 234px; margin: 20px 0 0 0; padding: 0; }
+		/* 회원가입 :E */
+		
+	
+	/* 회원로그인 :E */
+	
+	/* 중앙세로선 :S */
+	#white_center_line {position: relative; float: left; width: 33px; margin-left:20px; height: 210px; background:url("../images/member/white_center_bg.gif") no-repeat center ; }
+	/* 중앙세로선 :E */
+	
+	/* 공인인증서 로그인 :S */
+	#login_ceri	{position: relative; float: left; display: inline; width:247px; margin-left:21px; padding:0; display: block; text-align:left; border: 0px solid red;}
+	
+		/* 공인인증서 로그인 버튼 :S */
+		#ceri_form {position: relative; float: left; display: inline; width: 188px; margin-top: 20px; margin-left:52px; padding: 0; text-align:center; border: 0px solid blue;}
+		#btn_login_cert {position: relative; float: left; display: inline; width: 188px; margin-top: 20px; margin-left:52px; padding: 0; border: 0px solid blue;}
+		/* 공인인증서 로그인 버튼 :E */
+	
+	/* 공인인증서 로그인 :E */
+	
+	
+#white_bottom	{position: relative; clear:both; width: 628px;  height:20px; left:0; bottom:0; margin:0; padding:0; background:url("../images/member/white_bottom_bg.gif") no-repeat left bottom; border: 0px solid green;}
+#white_bottom_right	{position: absolute; float: left; width: 19px; height:20px; bottom:0; right:0; margin:0; padding:0; background:url("../images/member/white_bottom_right.gif") no-repeat right bottom; border: 0px solid black;}
+
+				
+/* white :E */
+#green_bottom	{position: relative; float: left; width: 668px;  height:20px; left:0; bottom:0; margin:0; padding:0; background:url("../images/member/green_bottom_bg.gif") no-repeat left bottom; border: 0px solid green;}
+#green_bottom_right	{position: absolute; float: left; width: 19px; height:20px; bottom:0; right:0; margin:0; padding:0; background:url("../images/member/green_bottom_bg_right.gif") no-repeat right bottom; border: 0px solid black;}
+
+/****** footer 레이아웃  ***************************************************************/
+#footer	{position: relative; float: left; display:inline; width: 586px; left:40px; margin-top:-16px; text-align:center; padding:0; background:url("../images/member/footer.gif") no-repeat center top; border: 0px solid black;}
+#footer img	{position: relative; float: left; display:inline; margin:8px 10px 0 40px; }
+#footer span{position: relative; float: left; display:inline; margin-top:18px; border: 0px solid black;}
+
+
+
+/******2. PULL 로그인요청  ***************************************************************************/
+#white_body_center	{position: relative; float: left; width:628px; margin:0; padding:30px 0; text-align:center; background:url("../images/member/white_body_bg.gif") no-repeat right top;  border: 0px solid RED;}
+
+#login_request {position: relative; float: none; display: inline; margin: 0; padding: 0; border: 0px solid black;}
+#login_request span{display: inline; margin:0; padding:0; border: 0px solid black;}
+
+	/* 중앙가로선 :S */
+	#white_ver_line {position: relative; float:none; clear:both; width: 628px; height: 22px; padding:20px 0; background:url("../images/member/img_bar.gif") no-repeat center; border: 0px solid RED;}
+	/* 중앙가로선 :E */
+	
+	/* 이전/로그인 버튼 :S */
+	#login_request_btn {position: relative; display: inline; margin:0; padding:0; border: 0px solid black; }
+	/* 이전/로그인 버튼 :E */
+	
+
+/****** 3.PULL 에러페이지  ***************************************************************************/	
+#error 	{position: relative; float: left; display: inline; width:530px; margin-left: 50px; padding: 0; border: 0px solid red;}
+#img_01 {position: relative; float: left; display: inline; width:97px; margin: 0; padding: 0; border: 0px solid black;}
+#img_02 {position: relative; float: left; display: inline; width: 433px; top:0; left:0;  padding: 0; border: 0px solid green;}
+#img_error {position: relative; float: left; display: inline; width: 433px; margin: 0; padding-bottom: 10px; text-align:left; border: 0px solid black;}
+#error_text{position: relative; float: left; display: inline; margin: 0; padding: 0; text-align:left; letter-spacing:-0.05em; border: 0px solid black;}

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC
+ "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+ "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+
+	<!-- ================== Form Bean Definitions : S ====================== -->
+	<form-beans>
+		<form-bean name="BbsParam"   		type="sp.bbs.BbsParam" />
+		<form-bean name="ChartParam"   		type="sp.chart.ChartParam" />	
+		<form-bean name="CommParam"   		type="sp.comm.CommParam" />
+		<form-bean name="ComInfoParam"   	type="sp.cominfo.ComInfoParam" />
+		<form-bean name="HmsParam"    		type="sp.hms.HmsParam" />
+		<form-bean name="IndexParam"		type="sp.index.IndexParam" />
+		<form-bean name="IllegalityParam"	type="sp.illegality.IllegalityParam" />
+		<form-bean name="LoginParam" 		type="sp.login.LoginParam" />		
+		<form-bean name="MainParam"			type="sp.main.MainParam" />
+		<form-bean name="MystoreParam"		type="sp.mystore.MystoreParam" />
+		<form-bean name="RegMgrParam"		type="sp.regmgr.RegMgrParam" />
+		<form-bean name="SearchParam"		type="sp.search.SearchParam" />
+		<form-bean name="ServiceParam"		type="sp.service.ServiceParam" />
+		<form-bean name="StatisticsParam"	type="sp.statistics.StatisticsParam" />
+		<form-bean name="StworkParam"		type="sp.stwork.StworkParam" />
+		<form-bean name="UseBeforeParam"	type="sp.usebefore.UseBeforeParam" />
+		<form-bean name="UserParam"			type="sp.user.UserParam" />
+		<form-bean name="MemParam"			type="sp.mem.MemParam" />
+		<form-bean name="PdaParam"			type="sp.pda.PdaParam" />
+		
+		<form-bean name="MigParam"			type="sp.mig.MigParam" />
+	</form-beans>
+	<!-- ================== Form Bean Definitions : E ====================== -->
+
+
+	<!-- ================== Global Forward Definitions : S ================= -->
+    <global-forwards>
+	    <forward name="error"			path="/com/error.do"/>
+	    <forward name="alertMsg"		path="/com/alertMsg.do"/>
+	    <forward name="loginChk"		path="/com/loginChk.do"/>	    	    
+	</global-forwards>
+	<!-- ================== Global Forward Definitions : E ================= -->
+
+
+	<!-- ================== Action Mapping Definitions : S ================= -->
+	<action-mappings>
+	    <action path="/index" 			forward="/index/IndexAction.do?cmd=Index"/>
+		<action path="/com/error" 		forward="/com/error/error.jsp"/>
+		<action path="/com/alertMsg" 	forward="/com/alertMessage.jsp"/>
+		<action path="/com/loginChk" 	forward="/com/loginChk.jsp"/>
+		<action path="/download" 		forward="/com/downLoad.jsp"/>
+		<action path="/com/ruleChk" 	forward="/com/ruleChk.jsp"/>
+				
+		<action path="/mig/MigAction" type="sp.mig.MigAction" name="MigParam" scope="request">
+		        <forward name="MigMgrCUD"		path="/" />
+		</action>
+		<!-- Login, Logout : S -->
+		<action path="/login/LoginAction" type="sp.login.LoginAction" name="LoginParam" scope="request">
+            <forward name="Login"		path="/index.do" />
+			<forward name="CCLogin"		path="/index.do" />
+            <forward name="LogOut"		path="/index.do" />
+            <forward name="PdaLoginMgr"	path="/pda/loginpage.jsp" />            
+        </action>
+        <!-- Login, Logout : E -->
+        
+        
+        <!-- Index : S -->
+		<action path="/index/IndexAction" type="sp.index.IndexAction" name="IndexParam" scope="request">
+			<forward name="Index"		path="/main/main.jsp" />
+		</action>
+		<!-- Index : E -->
+		
+		
+		<!-- BOARD : S -->
+		<action path="/bbs/BbsAction" type="sp.bbs.BbsAction" name="BbsParam" scope="request">
+            <forward name="BbsKC" 			path="/bbs/BbsAction.do?cmd=BbsKList" />
+            <forward name="BbsKR" 			path="/bbs/BbsAction.do?cmd=BbsKList" />
+            <forward name="BbsKU" 			path="/bbs/BbsAction.do?cmd=BbsKView" />
+            <forward name="BbsKD" 			path="/bbs/BbsAction.do?cmd=BbsKList" />
+            <forward name="BbsKFileDel" 	path="/bbs/result.jsp"/>
+            
+            <forward name="BbsKCC" 			path="/bbs/BbsAction.do?cmd=BbsKView" />
+						<forward name="BbsKCU" 			path="/bbs/BbsAction.do?cmd=BbsKView" />
+						<forward name="BbsKCD" 			path="/bbs/BbsAction.do?cmd=BbsKView" />
+						<forward name="BbsKDC" 			path="/bbs/BbsAction.do?cmd=BbsKView" />
+			            
+            <forward name="BbsLSggCd" 		path="/bbs/BbsLscSggCd.jsp"/>
+            <forward name="BbsWSggCd" 		path="/bbs/BbsWscSggCd.jsp"/>
+            
+            <forward name="BbsLFAQCd" 		path="/bbs/BbsLscFAQCd.jsp"/>
+            <forward name="BbsWFAQCd" 		path="/bbs/BbsLscFAQCd.jsp"/>
+        </action>
+        <!-- BOARD : E -->		
+		
+		
+		<!-- CHART : S -->
+		<action path="/chart/ChartAction" type="sp.chart.ChartAction" name="ChartParam" scope="request">
+            <forward name="ChartArea"		path="/com/ChartResult.jsp" />
+			<forward name="ChartYear"		path="/com/ChartResult.jsp" />		
+        </action>
+        <!-- CHART : E -->	
+		
+		
+		<!-- COMM : S -->
+		<action path="/comm/CommAction" type="sp.comm.CommAction" name="CommParam" scope="request">
+            <forward name="CommSigunguCode"	path="/comm/CommSigunguCode.jsp" />
+			<forward name="CommZipSearch"	path="/comm/CommPostSearch.jsp" />
+			
+			<forward name="CommDuplIDCheck"	path="/comm/CommDupIdCheck.jsp" />
+			<forward name="CommPubRegCheck"	path="/com/AjaxResult.jsp" />	
+			
+			<forward name="CommSMSSend"		path="/com/AjaxResult.jsp" />
+        </action>
+        <!-- COMM : E -->	
+        
+        
+        <!-- HMS : S -->
+		<action path="/hms/HmsAction" type="sp.hms.HmsAction" name="HmsParam" scope="request" >
+			<forward name="HmsContentC" 	path="/hms/result.jsp" />
+		</action>
+        <!-- HMS : E -->
+        
+        
+        <!-- MYSTORE : S -->
+        <action path="/mystore/MystoreAction" type="sp.mystore.MystoreAction" name="MystoreParam" scope="request" >
+			<!-- forward name="MyProState" 		path="/06_mystore/mystore_01_1.jsp" / -->
+			<forward name="MyUseStore"		path="/01_one/one_06_1_1.jsp"/>
+			<forward name="MyUseStoreView"	path="/inc/quick_view.jsp" />
+			<forward name="MyUseStoreCUD"	path="/result/MystoreResult.jsp" />
+			<forward name="MySecede" 		path="/01_one/one_06_6_1.jsp" />			
+		</action>
+        <!-- MYSTORE : E -->
+        
+        
+        <!-- SEARCH : S -->
+        <action path="/search/SearchAction" type="sp.search.SearchAction" name="SearchParam" scope="request" >
+			<forward name="UnifiedSearch" 		path="/search/unified_search.jsp" />
+			<forward name="WebPageSearch" 		path="/search/webpage_search.jsp" />
+			<forward name="BoardSearch" 		path="/search/board_search.jsp" />
+			<forward name="FormSearch" 			path="/search/form_search.jsp" />
+			<forward name="FaqUnifiedSearch" 	path="/03_community/community_05_4.jsp" />			
+		</action>
+        <!-- SEARCH : E -->
+		
+		
+		<!-- SERVICE : S -->
+        <action path="/service/ServiceAction" type="sp.service.ServiceAction" name="ServiceParam" scope="request" >
+			<forward name="CivilCenterGuide" 	path="/07_service/service_05_1.jsp" />
+			<forward name="CivilCenterInfo" 	path="/07_service/service_05_1_pop.jsp" />			
+		</action>
+        <!-- SERVICE : E -->
+		
+		
+		<!-- STATISTICS : S -->
+        <action path="/statistics/StatisticsAction" type="sp.statistics.StatisticsAction" name="StatisticsParam" scope="request" >
+			<forward name="StatisticalData" 	path="/04_guidance/guidance_02_5.jsp" />
+		</action>
+        <!-- STATISTICS : E -->
+		
+		
+		<!-- MEM : S -->
+		<action path="/mem/MemAction" type="sp.mem.MemAction" name="MemParam" scope="request" >
+			
+			<forward name="MemRegDupl" 			path="/00_member/member_01_2_2.jsp" />
+			<forward name="MemRegPrivate" 		path="/00_member/member_01_3_1.jsp" />
+			<forward name="MemRegBusiness" 		path="/00_member/member_01_3_2.jsp" />
+			
+			<forward name="MemRegPriC" 			path="/00_member/result.jsp" />
+			<forward name="MemRegBusC" 			path="/00_member/result.jsp" />
+			<forward name="MemRegSuccess" 		path="/00_member/member_01_4.jsp" />
+			
+			<forward name="MemIDSearch" 		path="/00_member/member_02_2.jsp" />
+			<forward name="MemPWSearch" 		path="/00_member/member_02_3.jsp" />
+			
+			<forward name="MemInfoV" 			path="/01_one/one_06_2_1.jsp" />
+			<forward name="MemInfoU" 			path="/result/MemResult.jsp" />
+			<forward name="MemInfoUOK" 			path="/01_one/one_06_2_2.jsp" />
+			<forward name="MemInfoD" 			path="/result/MemResult.jsp" />
+			
+			<forward name="MemPasswdChange" 	path="/01_one/one_06_3_1.jsp" />
+			<forward name="MemPasswdChangeU"	path="/result/MemResult.jsp" />
+			<forward name="MemPasswdChangeOK"	path="/01_one/one_06_3_2.jsp" />
+			
+			<forward name="MemMobileReg" 		path="/01_one/one_06_4_1.jsp" />
+			<forward name="MemMobileRegU" 		path="/result/MemResult.jsp" />
+			<forward name="MemMobileRegOK" 		path="/01_one/one_06_4_2.jsp" />
+			<forward name="MemMobileTimeOver" 	path="/01_one/one_06_4_3.jsp" />
+			
+			<forward name="MemCCReReg" 			path="/01_one/one_06_5_1.jsp" />
+			<forward name="MemCCReRegU" 		path="/result/MemResult.jsp" />	
+			<forward name="MemCCReRegOK" 		path="/01_one/one_06_5_2.jsp" />			
+			
+			<forward name="MemPubResNumU" 		path="/result/MemResult.jsp" />			
+		</action>
+		<!-- MEM : E -->
+						
+						
+		<!-- MEMBER : S -->
+		<action path="/member/regist"		forward="/00_member/member_01_1.jsp"/>
+		<action path="/member/identity"		forward="/00_member/member_01_2_1.jsp"/>
+		<action path="/member/duplicate"	forward="/00_member/member_01_2_2.jsp"/>
+		<action path="/member/find" 		forward="/00_member/member_02_1.jsp"/>
+		<action path="/member/login" 		forward="/login/login_main.jsp"/>
+		<!-- MEMBER : E -->		
+		
+		
+		<!-- ONESTOP:REGMGR : S -->
+		<action path="/regmgr/RegMgrAction" type="sp.regmgr.RegMgrAction" name="RegMgrParam" scope="request" >
+			<forward name="PubWorkRegInfo" 			path="/01_one/one_01_1.jsp" />
+			<forward name="PubWorkRegReportList" 	path="/01_one/one_01_2_1.jsp" />
+			<forward name="PubWorkRegReportView" 	path="/01_one/one_01_2_2.jsp" />
+			<forward name="PubWorkTransfer" 		path="/01_one/one_01_3.jsp" />
+			<forward name="PubWorkAffiliation" 		path="/01_one/one_01_4.jsp" />
+			<forward name="PubWorkChReport" 		path="/01_one/one_01_5.jsp" />
+		</action>
+		<!-- ONESTOP:REGMGR : E -->
+		
+		<!-- ONESTOP:STWORK : S -->
+		<action path="/stwork/StworkAction" type="sp.stwork.StworkAction" name="StworkParam" scope="request" >		
+			<forward name="StWorkPlanInfoList" 		path="/01_one/one_02_1_1.jsp" />
+			<forward name="StWorkPlanInfoView" 		path="/01_one/one_02_1_2.jsp" />
+			<forward name="StWorkPlanInfoC"			path="/com/AjaxResult.jsp"    />
+			<forward name="StWorkPlanInfoD"			path="/stwork/StworkAction.do?cmd=StWorkPlanInfoList" />
+		</action>
+		<!-- ONESTOP:STWORK : E -->
+		
+		<!-- ONESTOP:USEBEFORE : S -->
+		<action path="/usebefore/UseBeforeAction" type="sp.usebefore.UseBeforeAction" name="UseBeforeParam" scope="request" >		
+			<forward name="UseBeforeChkStatus" 		path="/01_one/one_03_1_1.jsp" />
+			<forward name="UseBeforeChkContent" 	path="/01_one/one_03_1_2.jsp" />
+			<forward name="UseBeforeChkMgr" 		path="/01_one/one_03_1_3.jsp" />
+			<forward name="UseBeforeBuildMgr" 		path="/01_one/one_03_1_4.jsp" />
+			<forward name="UseBeforeC" 				path="/com/AjaxResult.jsp"    />
+			<forward name="UseBeforeD" 				path="/usebefore/UseBeforeAction.do?cmd=UseBeforeChkStatus" />
+			
+			<forward name="UseBeforeQuickStatus"	path="/popup/usebefore/popup_usebefore.jsp" />			
+		</action>
+		<!-- ONESTOP:USEBEFORE : E -->
+				
+		<!-- ONESTOP:ILLEGALITY : S -->
+		<action path="/illegality/IllegalityAction" type="sp.illegality.IllegalityAction" name="IllegalityParam" scope="request" >			
+			<forward name="IllegalityStatus" 	path="/09_center/center_09_3_1.jsp" />
+			
+			<forward name="IllBusiSusList" 		path="/09_center/center_09_3_2_1.jsp" />
+			<forward name="IllBusiSusView" 		path="/09_center/center_09_3_2_2.jsp" />
+			
+			<forward name="IllRegistCancel"		path="/09_center/center_09_3_3.jsp" />	
+			
+			<forward name="IllNegFineList" 		path="/09_center/center_09_3_4_1.jsp" />
+			<forward name="IllNegFineView" 		path="/09_center/center_09_3_4_2.jsp" />			
+			
+			<forward name="IllWarningList" 		path="/09_center/center_09_3_5_1.jsp" />
+			<forward name="IllWarningView" 		path="/09_center/center_09_3_5_2.jsp" />
+			
+			<forward name="IllCorOrderList" 	path="/09_center/center_09_3_6_1.jsp" />
+			<forward name="IllCorOrderView" 	path="/09_center/center_09_3_6_2.jsp" />
+			
+			<!-- forward name="IllProsecutionList"	path="/09_center/center_09_3_7_1.jsp" / -->
+			<!-- forward name="IllProsecutionView"	path="/09_center/center_09_3_7_2.jsp" / -->			
+		</action>
+		<!-- ONESTOP:ILLEGALITY : E -->
+		
+		<!-- ONESTOP:COMINFO : S -->
+		<action path="/cominfo/ComInfoAction" type="sp.cominfo.ComInfoAction" name="ComInfoParam" scope="request">
+            <forward name="InfoCommTrader" 		path="/01_one/one_05_1.jsp" />
+			<forward name="InfoExecValuation" 	path="/01_one/one_05_2.jsp" />
+			<forward name="InfoAdmMeasure" 		path="/01_one/one_05_3.jsp" />		
+			
+			<forward name="InfoCommTraderPub" 		path="/09_center/center_09_1.jsp" />
+			<forward name="InfoCommTraderPubV" 		path="/09_center/center_09_1_v.jsp" />
+			<forward name="InfoExecValuationPub" 	path="/09_center/center_09_2.jsp" />
+			<forward name="InfoExecValuationPubV" 	path="/09_center/center_09_2_v.jsp" />
+			<forward name="InfoAdmMeasurePub" 		path="/09_center/center_09_3.jsp" />		
+			<forward name="InfoAdmMeasurePubV" 		path="/09_center/center_09_3_v.jsp" />
+        </action>
+        <!-- ONESTOP:COMINFO : E -->
+		
+		
+		<!-- POPUP : S -->
+		<action path="/popup/viewer"		forward="/popup/viewer/popup_viewer.jsp"/>
+		<action path="/popup/mobile"		forward="/popup/mobile/popup_mobile.jsp"/>
+		<!-- POPUP : E -->
+		
+		<!-- CERTIFICATE : S -->
+		<action path="/certificate/install"	forward="/com/Object_chk.jsp"/>
+		<!-- CERTIFICATE : E -->
+		
+		
+		<!-- PDA : S -->
+        <action path="/pda/PdaAction" type="sp.pda.PdaAction" name="PdaParam" scope="request" >
+			<forward name="Pdalog1Mgr" 		path="/pda/Pdalog1Mgr.jsp" />
+			<forward name="Pdaimg0Mgr" 		path="/pda/Pdaimg0Mgr.jsp" />
+			<forward name="Pdaimg1Mgr" 		path="/pda/Pdaimg1Mgr.jsp" />
+			<forward name="PdaApprMgr" 		path="/pda/PdaApprMgr.jsp" />
+			<forward name="PdaApprMgrCUD" 	path="/pda/PdaApprMgrCUD.jsp" />
+			<forward name="PdaSingimgMgr" 	path="/pda/PdaSingOk.jsp" />
+			<forward name="PdaSearchComMgr" 	path="/pda/PdaSearchCom.jsp" />
+			<forward name="PdaSearchEngMgr" 	path="/pda/PdaSearchEng.jsp" />
+		</action>
+        <!-- PDA : E -->
+	
+	</action-mappings>	
+	<!-- ================== Action Mapping Definitions : E ================= -->
+
+</struts-config>

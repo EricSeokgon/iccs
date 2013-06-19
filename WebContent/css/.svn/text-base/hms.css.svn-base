@@ -1,0 +1,12 @@
+/* contents-HMS */
+
+#hms_view { width:670px; overflow:hidden; padding:0; margin-bottom:20px; text-align:left; line-height:18px; letter-spacing:-0.1em; word-break:break-all;  border:0px solid black; }
+
+#hms_modify {float: left; width:670px; height:52px; padding:8px; margin:0; background:url(../images/hms/view_bg.gif) no-repeat; font-weight:bold; border:0px solid #red; }
+	#page_name 		{float: left; width:360px; height:36px; margin:0 ; padding-top:10px; border:0px solid red;}
+	#page_version 	{float: left; width:190px; height:36px; margin:0 ; padding-top:10px; background:url(../images/hms/view_bar.gif) no-repeat left top; border:0px solid red;}
+	#hms_btn 		{float: left; width:100px; height:36px; margin:0 ; padding-top:6px; text-align:center; border:0px solid blue; }
+		
+
+#hms_write {width:100%; padding:0; margin:0;  border:8px solid #e0e0e0; }
+	#hms_write_btn {position:relative; float: right;  right:5px; padding:5px; margin-top:5px; border:0px solid blue; }

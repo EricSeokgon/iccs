@@ -1,0 +1,1 @@
+<script src=https://seal.verisign.com/getseal?host_name=www.net.go.kr&size=M&use_flash=YES&use_transparent=YES&lang=ko></script>

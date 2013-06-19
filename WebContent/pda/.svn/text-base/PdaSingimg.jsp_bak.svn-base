@@ -1,0 +1,43 @@
+<%@ page contentType="text/html; charset=utf-8"%><%@ page import="java.io.*"%><%@ page import="java.net.*"%><%@ page import="kjf.ops.*"%><%@ page import="kjf.util.*"%><%
+	String result = "SIGNERR|";
+	try{
+		response.setContentType("image/jpeg");
+		String f_url = request.getParameter("f_url");
+		String city = request.getParameter("city");
+		String gugun = request.getParameter("gugun");
+		String id = request.getParameter("id");
+		String ub_code = request.getParameter("ub_code");
+		String to_data = KJFDate.datetimeOnly(KJFDate.getCurTime());
+		String filename = "pda_sing.bmp";
+		
+		String dirs = "/data/webroot/ICCSM/usebefore/"+city+"/"+gugun+"/"+ub_code+"/"+filename;
+		//String dirs = "D:\\cytyseal\\"+filename;
+				
+		ReportDAO    rDAO        = new ReportDAO();
+		
+	    URL url = new URL(f_url);
+	    URLConnection uc = url.openConnection ();
+	    InputStream is = uc.getInputStream ();
+	    BufferedInputStream bs = new BufferedInputStream(is);
+	    FileOutputStream fos = new FileOutputStream (dirs);
+	    int n = 0;
+		   while ((n=bs.read())!=-1)
+		   {
+		    	fos.write(n);	    		    	
+		   }
+	   fos.close();		
+	   
+	   String SEQ = KJFDBUtil.getMaxID("SEQ","PT_UB_FILE");
+	   String SQL = "INSERT INTO PT_UB_FILE (SEQ,RECV_NUM,SIDO_CODE,SIGUNGU_CODE,FILE_NM,WRT_ID,INS_DT) VALUES ("+SEQ+",'"+ub_code+"','"+city+"','"+gugun+"','"+filename+"','"+id+"','"+to_data+"')";
+	   rDAO.execute(SQL);
+	   result = "OK|http://net.go.kr/pda/singimg.jsp?city="+city+"&gugun="+gugun+"&ub_code="+ub_code;
+  }catch(Exception e){
+	  System.out.println("sing err : "+e);	  
+  }
+  finally {
+	  out.print(result);
+  }
+  
+	
+		
+%>

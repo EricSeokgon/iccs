@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<script language="javascript" src="../init.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+/*
+function init()
+{
+  var Ret;
+ 
+  Ret =  document.CC_Object_id.SetCommonInfoFromVal("211.192.169.70",4502, 
+                                               "211.192.169.180",389, 
+                                               "211.192.169.180",389,
+                                               "CN=ROOT-RSA-CRL,OU=ROOTCA,O=KISA,C=KR", 
+                                               "no", 
+                                               "1.2.410.200004.2.1|1.2.410.200004.5.1.1.5|1.2.410.200004.5.1.1.7|1.2.410.200004.5.2.1.1|1.2.410.200004.5.2.1.2|1.2.410.200004.5.3.1.1|1.2.410.200004.5.3.1.2|1.2.410.200004.5.3.1.4|1.2.410.200004.5.4.1.1|1.2.410.200004.5.4.1.2|1.2.410.200004.5.4.1.3|1.2.410.200004.5.4.1.4|1.2.410.200004.5.4.1.5|1.2.410.200004.5.4.1.7|1.2.410.200005.1.1.1|1.2.410.200005.1.1.5|1.2.410.200012.1.1.1|1.2.410.200012.1.1.3");
+								
+    if ( Ret != 0 )
+    { 
+         alert( "인증 초기 설정에 실패하였습니다." );
+         return false;
+    }
+    else
+    {
+         return true;
+    }
+}
+*/
+
+function verify()
+{
+
+	if( document.test.src.value == null || document.test.src.value == "" )
+	{
+		alert("서명시 사용한 원문을 넣어주십시요");
+		return;
+	}
+		document.test.action = "verifyNoCon.jsp";
+		document.test.method = "post";
+		document.test.submit();
+
+}
+
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY>
+● 원문이 없는 전자서명(PKCS#7)<br><br>
+<form name="test">
+<div align = center>
+
+
+<table>
+  <tr> 
+	<td align="center"> 원문<br>
+	  <textarea name="src" rows="20" cols="40">1234</textarea>
+	</td>
+	<td align="center"> 서명값<br>
+	  <textarea name="signed_data" rows="20" cols="40">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</textarea>
+	</td>
+  <tr> 
+	<td align="center"><input type = button value = "원문 미포함 전자서명 검증(전송)" OnClick = "verify()"></td>
+	<td align="center">전자서명값(인증서 및 원문 미포함)</td>
+  </tr>
+</table>
+</div>
+</form>
+
+<!--<iframe src="../refer.html" frameborder="0" width="450" height="300" marginwidth="0" marginheight="0" scrolling="auto"></iframe>//-->                  
+
+
+</BODY>
+</HTML>
+<script language="javascript" src="../cc.js"></script>
+<!-- 전자인증 모듈 //-->
+<script language="javascript" src="../CC_Object.js"></script>

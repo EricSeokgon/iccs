@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd
+END
+IllegalityStatusCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd/IllegalityStatusCmd.java
+END
+IllProsecutionListCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd/IllProsecutionListCmd.java
+END
+IllBusiSusListCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd/IllBusiSusListCmd.java
+END
+IllCorOrderListCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd/IllCorOrderListCmd.java
+END
+IllNegFineListCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd/IllNegFineListCmd.java
+END
+IllWarningListCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd/IllWarningListCmd.java
+END
+IllProsecutionViewCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd/IllProsecutionViewCmd.java
+END
+IllBusiSusViewCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd/IllBusiSusViewCmd.java
+END
+IllCorOrderViewCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd/IllCorOrderViewCmd.java
+END
+IllNegFineViewCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd/IllNegFineViewCmd.java
+END
+IllWarningViewCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd/IllWarningViewCmd.java
+END
+IllRegistCancelCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/src/sp/illegality/cmd/IllRegistCancelCmd.java
+END

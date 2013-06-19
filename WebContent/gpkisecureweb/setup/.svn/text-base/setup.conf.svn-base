@@ -1,0 +1,6 @@
+[Install_Info]
+InstallDir 		= GPKISecureWeb
+ServerAddr      = 10.1.1.1:8080
+SetupFilePath   = /gpkisecureweb/setup/install_on_v1.0.2.8.exe
+Version 		= 1028
+

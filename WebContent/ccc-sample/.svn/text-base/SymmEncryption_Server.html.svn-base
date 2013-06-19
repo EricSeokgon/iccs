@@ -1,0 +1,128 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<meta http-equiv='Content-Type' content='text/html; charset=euc-kr'>
+<script language="javascript" src="init.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+
+
+
+function SymmEncryption(alg)
+{
+	init();
+	var origin;
+	var enc_data;
+	var enc_cert;
+	var stralgolithm = "";
+	var pwd;
+
+
+	if (document.test.passwd.value == "")
+	{
+		alert("암호화할 비밀번호을 넣어주십시요");
+		return;
+	}
+		
+
+	if( document.test.src.value == null || document.test.src.value == "" )
+	{
+		alert("암호화할 원문 값을 넣어주십시요");
+		return;
+	}
+   
+	if (alg == 1) stralgolithm = "SEED";
+	if (alg == 2) stralgolithm = "3DES";
+	if (alg == 3) stralgolithm = "RC2";
+
+	enc_data =  document.CC_Object_id.SymmEncryption(stralgolithm, document.test.passwd.value, document.test.src.value);
+
+  	if( enc_data != null && enc_data != "" )
+	{
+		alert("암호화 성공");
+		document.test.enc_data.value = enc_data
+		document.test.algolithmFlag.value = alg
+
+	}
+	else
+	{
+		errmsg = document.CC_Object_id.GetErrorContent();
+		errcode = document.CC_Object_id.GetErrorCode();
+		alert( "SymmEncryption :"+errmsg );
+		return;
+	}   
+
+}
+
+function send()
+{
+	
+	if (document.test.enc_data.value == "")
+	{
+		alert("암호화값 없음.");
+		return
+	}
+
+	document.test.method = "post";
+	document.test.action = "./server/SymmEncryption_Server.jsp";
+	document.test.submit();
+
+}
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY>
+● 암호화(대칭형)<br><br>
+● 개요 : 입력된 대칭키 암호 알고리즘과 키를 사용하여 테이터를 암호화 한다.<br><br>
+● 사용된 함수<br><br>
+♣ SetCommonInfoFromVal() : 전자인증 웹모듈(CC_Object_id) 초기 환경설정<br>
+♣ SymmEncryption(암호알고리즘, 비밀번호, 평문) : 암호화. 암호알고리즘 : SEED, 3DES, RC2
+
+<form name="test">
+<div align = center>
+<table>
+<tr> 
+	<td align="center" colspan = 2> 비밀번호 : 
+	  <input type = text  name = passwd value = "0123456789123456"><br>
+	</td>
+  </tr>
+<tr> 
+	<td align="center" colspan = 2> 알고리즘(
+	  1 : SEED &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  2 : 3DES &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  3 : RC2) : 
+	  <input type = text  name = "algolithmFlag" value = "1">
+	</td>
+  </tr>
+  <tr> 
+	<td align="center"> 원본<br>
+	  <textarea name="src" rows="20" cols="40">1234567890abcdefghijklmnopqrstuvwxyxz한글*##*</textarea>
+	</td>
+	<td align="center"> 암호화값<br>
+	  <textarea name="enc_data" rows="20" cols="40"></textarea>
+	</td>
+  <tr> 
+	<td align="center" colspan =2>
+	
+	<input type = button value = "암호화 SEED" OnClick = "SymmEncryption('1')">
+	<input type = button value = "암호화 3DES" OnClick = "SymmEncryption('2')">
+	<input type = button value = "암호화 RC2" OnClick = "SymmEncryption('3')">
+	</td>
+  </tr>
+</table>
+<input type = button value = "서버전송(복호화)" OnClick = "send()">
+</div>
+</form>
+
+
+<!--<center><iframe src="refer.html" frameborder="0" width="800" height="300" marginwidth="0" marginheight="0" scrolling="auto"></iframe></center>//-->
+
+</BODY>
+</HTML>
+<script language="javascript" src="cc.js"></script>
+<!-- 전자인증 모듈 //-->
+<script language="javascript" src="CC_Object.js"></script>

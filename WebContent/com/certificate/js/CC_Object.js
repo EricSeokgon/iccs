@@ -1,0 +1,1 @@
+document.write('<object id="CC_Object_id" classid="CLSID:A099920B-630C-426B-91EC-737685CEEE17" codebase="../com/certificate/cab/AxCrossCert.cab#Version=2,5,0,13" width= Document.body.clientWidth height= Document.body.clientHeight>');

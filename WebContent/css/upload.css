@@ -1,0 +1,14 @@
+BODY 
+{
+	color: #4e4e4e; 
+	font-size: 12px; 
+	font-family:"µ¸¿ò",dotum, sans-serif; 
+ 	margin: 0;
+	padding: 20px 0 0 0;
+	background:#FFF;
+}	
+
+.detail { margin: 15px 0; }
+.detail td { height:18px; background:url(../images/progressBar/icon.gif) no-repeat 0 50%; padding-left:8px; }
+.notice { padding:15px 0; font-weight:bold; border-top:2px solid #E6E6E6; }
+span { font-weight:bold; color:#F60; }

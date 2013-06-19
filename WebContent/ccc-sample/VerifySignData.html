@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<script language="javascript" src="init.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+/*
+function init()
+{
+  var Ret;
+ 
+  Ret =  document.CC_Object_id.SetCommonInfoFromVal("211.192.169.70",4502, 
+                                               "211.192.169.180",389, 
+                                               "211.192.169.180",389,
+                                               "CN=ROOT-RSA-CRL,OU=ROOTCA,O=KISA,C=KR", 
+                                               "no", 
+                                               "1.2.410.200004.2.1|1.2.410.200004.5.1.1.5|1.2.410.200004.5.1.1.7|1.2.410.200004.5.2.1.1|1.2.410.200004.5.2.1.2|1.2.410.200004.5.3.1.1|1.2.410.200004.5.3.1.2|1.2.410.200004.5.3.1.4|1.2.410.200004.5.4.1.1|1.2.410.200004.5.4.1.2|1.2.410.200004.5.4.1.3|1.2.410.200004.5.4.1.4|1.2.410.200004.5.4.1.5|1.2.410.200004.5.4.1.7|1.2.410.200005.1.1.1|1.2.410.200005.1.1.5|1.2.410.200012.1.1.1|1.2.410.200012.1.1.3");
+								
+    if ( Ret != 0 )
+    { 
+         alert( "인증 초기 설정에 실패하였습니다." );
+         return false;
+    }
+    else
+    {
+         return true;
+    }
+}
+*/
+
+
+
+function SignVerify()
+{
+   init();
+   var origin;
+
+   if( document.test.signed_data.value == null || document.test.signed_data.value == "" )
+   {
+        alert("전자서명 값을 넣어주십시요");
+        return;
+   }
+   
+   // 전자서명 검증
+   aaa = document.CC_Object_id.SetValidationFlag(0);
+   origin =  document.CC_Object_id.VerifySignData(document.test.signed_data.value, "SHA1" );
+   aaa = document.CC_Object_id.SetValidationFlag(1);
+   
+   if( origin != null && origin != "" )
+   {
+      alert("검증 성공");
+	  document.test.src.value = origin
+	  
+   }
+   else
+   {
+       errmsg = document.CC_Object_id.GetErrorContent();
+       errcode = document.CC_Object_id.GetErrorCode();
+       alert( "SignVerify :"+errmsg );
+      return;
+   }   
+
+}
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY>
+● 전자서명검증<br><br>
+● 개요 : 인증서 선택창을 통해 선택된 서명용 인증서와 비밀키, 인증경로 정보를 이용해 평문에 대한 전자서명을 수행<br><br>
+● 사용된 함수<br><br>
+♣SetCommonInfoFromVal() : 전자인증 웹모듈(CC_Object_id) 초기 환경설정<br>
+♣VerifySignData(서명값, 알고리즘) : 전자서명검증
+
+<form name="test">
+<div align = center>
+<table>
+  <tr> 
+	<td align="center"> 원본<br>
+	  <textarea name="src" rows="20" cols="40"></textarea>
+	</td>
+	<td align="center"> 서명값<br>
+	  <textarea name="signed_data" rows="20" cols="40">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</textarea>
+	</td>
+  <tr> 
+	<td align="center">전자서명검증</td>
+	<td align="center"><input type = button value = "전자서명검증" OnClick = "SignVerify()"></td>
+  </tr>
+</table>
+</div>
+</form>
+    
+<!--<center><iframe src="refer.html" frameborder="0" width="800" height="300" marginwidth="0" marginheight="0" scrolling="auto"></iframe></center>//-->
+
+</BODY>
+</HTML>
+<script language="javascript" src="cc.js"></script>
+<!-- 전자인증 모듈 //-->
+<script language="javascript" src="CC_Object.js"></script>

@@ -1,0 +1,62 @@
+/* login layout-YSM */
+@import url("style.css");
+
+/****** 회원가입 : 이용약관  ***************************************************************************/
+#mem_img { padding:5px 0 25px 0; border:0px solid #000000; }
+#mem_title_1 {width:95%; margin:0 0 20px 10px; padding-bottom:10px; border-bottom:1px solid #ebebeb;}
+.mem_title_2 {position:relative; float:left; width:95%; padding:0 0 30px 15px; border:0px solid #ff8533;}
+.mem_title_2_img {position: relative; float: left; display:inline; width:100%; padding:0 0 5px 0px;} 
+.mem_title_2_text{position: absolute; float: left; top:0; right:0px; color: #ff9535; font-size:0.85em; border:0px solid #ff8533}
+
+.mem_detail {width:100%; margin:5px 0 5px 0px; border-top: 2px solid #ff8533;}
+.mem_input	{width:95%; padding:2px 0 10px 2px; border-bottom:1px solid #ebebeb;}
+
+#mem_kind_bg { width:100%; text-align:center; border-bottom:0px solid #ebebeb}
+#mem_kind_comment {padding-bottom:8px;}
+#mem_kind_box {position:relative; float:left; display:inline; width:230px; height:63px; text-align:center; background:url(../00_member/images/agree/round_left.gif) no-repeat; padding:25px 0 0 0; margin-left:220px;}
+#mem_kind_right {position:absolute; float:left; top:0px; right:0px; }
+#mem_btn {clear:both; text-align:center; padding: 20px 0;}
+
+/****** 회원가입 : 02 중복확인  ***************************************************************************/
+#mem_center_wrapper {position: relative; float: left; width:95%; text-align:center; border-bottom:0px solid green}
+.mem_title_1_no {width:95%; padding:0 0 10px 20px; border-bottom:0px solid #ebebeb;}
+#mem_center {width:540px; text-align:left; border:0px solid #ebebeb}
+
+/* orange */
+#orange_bg	{position: relative; float: left; width: 100%; background:url("../00_member/images/orange_bg.gif") no-repeat left top; padding: 0; margin:0; border: 0px solid black;}
+.orange_top	{position: relative; float: left; width: 100%; height:15px; left:0; top:0; margin:0; padding:0; border: 0px solid green;}
+#orange_top_right	{position: absolute; float: left; width:15px; height:15px; top:0; right:0; margin:0; padding:0; background:url("../00_member/images/orange_top_right.gif") no-repeat right top; border: 0px solid black;}
+
+#orange_body	{position: relative; float: left; width:100%; margin:0; padding:20px 0;  background:url("../00_member/images/orange_body_right.gif") no-repeat right ; text-align:center;  border: 0px solid RED; }
+#orange_body_no	{position: relative; float: left; width:100%; margin:0; padding:20px 0; text-align:center; border: 0px solid RED; }
+#orange_body span.txt {width:70%; margin:0;  letter-spacing:-1px; padding-top:5px; border: 0px solid black;}
+#orange_body_detail {width:70%; margin-left:50px; text-align:left; border: 0px solid green;}
+#orange_body_detail img {margin: 5px 20px 0px 0; display:inline; border: 0px solid black; }
+#orange_body_line {width:90%; margin:20px 0; border-bottom:1px solid #ebebeb; }
+
+
+#orange_bottom	{position: relative; clear:both; width: 100%;  height:15px; left:0; bottom:0; margin:0; padding:0; background:url("../00_member/images/orange_bg_bottom.gif") no-repeat left bottom; border: 0px solid green;}
+#orange_bottom_right	{position: absolute; float: left; width: 15px; height:15px; top:0; right:0; margin:0; padding:0; background:url("../00_member/images/orange_bottom_right.gif") no-repeat right bottom; border: 0px solid black;}
+
+
+
+/****** 4.회원가입 : 03개인정보입력  ***************************************************************************/
+.line_T2 {clear:both; width:100%; margin:0px; padding:0; border-top:2px solid #ff8533; border-bottom:0px solid #ff8533;}
+.line_T2B1 {clear:both; width:100%; margin:0px; padding:0; border-top:2px solid #ff8533; border-bottom:1px solid #ff8533;}
+
+
+#search_center {position: relative; float:left; display:inline; width:670px; text-align:left; border:0px solid red}
+#search_center_bg {position: relative; float:left; display:inline; width:670px; text-align:left;background:url("../00_member/images/orange_search.gif") no-repeat left bottom; border:0px solid red}
+#search_id {position: relative; float:left; width:50%; display:inline; text-align:left; border:0px solid #ebebeb}
+#search_pw {position: relative; float:left; width:49.8%; display:inline; text-align:left; right:0;  border:0px solid #ebebeb}
+
+/******비밀번호찾기 : 오렌지색 outline  ***************************************************************************/
+#orange_bg_center	{position: relative; float: left; width: 100%; background:url("../00_member/images/orange_bg_center.gif") no-repeat left top; padding: 0; margin:0; border: 0px solid black;}
+
+#orange_bottom_center	{position: relative; clear:both; width: 100%;  height:15px; left:0; bottom:0; margin:0; padding:0; background:url("../00_member/images/orange_bottom_center.gif") no-repeat left bottom; border: 0px solid green;}
+
+.search_form {position: relative; float: left; width:90%; left:18px; height:120px; text-align:center; border: 0px solid green;}
+.search_form_title {float:left; width: 70px; padding: 0; margin: 3px 0 0 0; height: 20px;}
+
+.line_1 {text-align:left; padding:2px 2px; border-bottom: 1px solid #ebebeb;}
+.line_1_d1 {height:1px; background-color: #ebebeb;}

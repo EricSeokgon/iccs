@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<script language="javascript" src="init.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+/*
+function init()
+{
+  var Ret;
+ 
+  Ret =  document.CC_Object_id.SetCommonInfoFromVal("211.192.169.70",4502, 
+                                               "211.192.169.180",389, 
+                                               "211.192.169.180",389,
+                                               "CN=ROOT-RSA-CRL,OU=ROOTCA,O=KISA,C=KR", 
+                                               "no", 
+                                               "1.2.410.200004.2.1|1.2.410.200004.5.1.1.5|1.2.410.200004.5.1.1.7|1.2.410.200004.5.2.1.1|1.2.410.200004.5.2.1.2|1.2.410.200004.5.3.1.1|1.2.410.200004.5.3.1.2|1.2.410.200004.5.3.1.4|1.2.410.200004.5.4.1.1|1.2.410.200004.5.4.1.2|1.2.410.200004.5.4.1.3|1.2.410.200004.5.4.1.4|1.2.410.200004.5.4.1.5|1.2.410.200004.5.4.1.7|1.2.410.200005.1.1.1|1.2.410.200005.1.1.5|1.2.410.200012.1.1.1|1.2.410.200012.1.1.3");
+								
+    if ( Ret != 0 )
+    { 
+         alert( "인증 초기 설정에 실패하였습니다." );
+         return false;
+    }
+    else
+    {
+         return true;
+    }
+}
+*/
+
+function CheckFilewall()
+{
+    
+
+	// 환경설정 함수 콜
+	init();
+	var ret;
+	
+/*	
+	전자인증의 CA 서버, 전자인증의 디렉토리서버, 
+	RootCA(정보보호진흥원) 디렉토리 서버와의 통신여부 첵크
+*/	
+
+	ret = CC_Object_id.CheckFilewall();
+
+}
+
+
+
+
+
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY>
+● 방화벽 테스트<br><br>
+● 개요 : 전자인증의 CA 서버, 전자인증의 디렉토리서버, RootCA(정보보호진흥원) 디렉토리 서버와의 통신여부 첵크<br><br>
+● 사용된 함수<br><br>
+
+♣ SetCommonInfoFromVal() : 전자인증 웹모듈(CC_Object_id) 초기 환경설정<br>
+♣ CheckFilewall()
+
+<form name="test">
+<div align = center>
+<table>
+ 
+  <tr>
+	<td>
+	  <input type = button value = "방화벽 테스트" OnClick = "CheckFilewall()">
+	</td>
+  </tr>
+ 
+</table>
+</div>
+</form>
+
+<!--<center><iframe src="refer.html" frameborder="0" width="800" height="300" marginwidth="0" marginheight="0" scrolling="auto"></iframe></center>//-->
+
+
+</BODY>
+</HTML>
+<script language="javascript" src="cc.js"></script>
+<!-- 전자인증 모듈 //-->
+<script language="javascript" src="CC_Object.js"></script>

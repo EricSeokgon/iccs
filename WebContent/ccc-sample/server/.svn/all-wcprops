@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server
+END
+signdata.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/signdata.jsp
+END
+crosscerta_encbase64.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_encbase64.jsp
+END
+crosscerta_signdata1.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_signdata1.jsp
+END
+crosscerta_signdata.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_signdata.jsp
+END
+crosscerta_verifyidnC.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_verifyidnC.jsp
+END
+ocsp.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/ocsp.html
+END
+crosscerta_decryptdata.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_decryptdata.jsp
+END
+For.html
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/For.html
+END
+SignData.html
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/SignData.html
+END
+verify.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/verify.jsp
+END
+ocsp_check.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/ocsp_check.jsp
+END
+ccc.js
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/ccc.js
+END
+tsa.html
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/tsa.html
+END
+tsa.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/tsa.jsp
+END
+Sign.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/Sign.html
+END
+total.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/total.jsp
+END
+sign_check.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/sign_check.jsp
+END
+tsa_check2.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/tsa_check2.jsp
+END
+verifyNoCon.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/verifyNoCon.jsp
+END
+tsa_check3.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/tsa_check3.jsp
+END
+crosscerta_hash_file.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_hash_file.jsp
+END
+tsa_check.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/tsa_check.jsp
+END
+crosscerta_decrypt.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_decrypt.jsp
+END
+crosscerta_encryptdata.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_encryptdata.jsp
+END
+crosscerta_decbase64.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_decbase64.jsp
+END
+crosscerta_hash.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_hash.jsp
+END
+for_check.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/for_check.jsp
+END
+SystemProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/SystemProperties.java
+END
+crosscerta_encrypt_2.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_encrypt_2.jsp
+END
+SignData1.html
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/SignData1.html
+END
+verify1.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/verify1.jsp
+END
+crosscerta_verifyidn.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_verifyidn.jsp
+END
+crosscerta_signdataNoCon.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_signdataNoCon.jsp
+END
+verify2.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/verify2.jsp
+END
+SymmEncryption_Server.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/SymmEncryption_Server.jsp
+END
+SystemProperties.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/SystemProperties.jsp
+END
+crosscerta_encrypt.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/crosscerta_encrypt.jsp
+END
+SignDataNoCon.html
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/ccc-sample/server/SignDataNoCon.html
+END

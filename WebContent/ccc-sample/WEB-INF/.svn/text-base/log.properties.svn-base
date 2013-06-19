@@ -1,0 +1,37 @@
+DebugLog.type=SYSTEM
+DebugLog.param=out
+DebugLog.prefix=['DEBUG'|yyyy-MM-dd hh:mm:ss] 
+DebugLog.enabled=true
+InfoLog.type=SYSTEM
+InfoLog.param=out
+InfoLog.prefix=['INFO'|yyyy-MM-dd hh:mm:ss] 
+InfoLog.enabled=true
+WarnLog.type=SYSTEM
+WarnLog.param=out
+WarnLog.prefix=['WARN'|yyyy-MM-dd hh:mm:ss] 
+WarnLog.enabled=true
+
+ErrorLog.type=SYSTEM
+ErrorLog.param=out
+ErrorLog.prefix=['ERROR'|yyyy-MM-dd hh:mm:ss] 
+ErrorLog.enabled=true
+
+ConnLog.type=FILE
+ConnLog.param=/usr/local/class_crm/logs/conn.log
+ConnLog.prefix=['CONN'|yyyy-MM-dd hh:mm:ss] 
+ConnLog.enabled=true
+
+JdbcLog.type=FILE
+JdbcLog.param=/usr/local/class_crm/logs/jdbc.log
+JdbcLog.prefix=['JDBC'|yyyy-MM-dd hh:mm:ss] 
+JdbcLog.enabled=true
+
+PoolLog.type=FILE
+PoolLog.param=/usr/local/class_crm/logs/pool.log
+PoolLog.prefix=['POOL'|yyyy-MM-dd hh:mm:ss] 
+PoolLog.enabled=true
+
+QueryLog.type=FILE
+QueryLog.param=/usr/local/class_crm/logs/query.log
+QueryLog.prefix=['QUERY'|yyyy-MM-dd hh:mm:ss] 
+QueryLog.enabled=true

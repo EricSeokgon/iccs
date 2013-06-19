@@ -1,0 +1,11 @@
+var ozServer = document.location.host;
+document.writeln('<OBJECT  ID="ZTransferX" width = "0" height = "0" ');
+document.writeln(' CLASSID="CLSID:C7C7225A-9476-47AC-B0B0-FF3B79D55E67" ');
+document.writeln(' codebase="http://' + ozServer + '/oz/ozviewer/ZTransferX.cab#version=2,0,1,2">');
+document.writeln('<PARAM NAME="download.Server" VALUE="http://' + ozServer + '/oz/ozviewer/">');
+document.writeln('<PARAM NAME="download.Port" VALUE="80">');
+document.writeln('<PARAM NAME="download.Instruction" VALUE="ozrviewer.idf">');
+document.writeln('<PARAM NAME="install.Base" VALUE="<PROGRAMS>/Forcs">');
+document.writeln('<PARAM NAME="install.NameSpace" VALUE="oz">');
+document.writeln('</OBJECT>');
+document.close();

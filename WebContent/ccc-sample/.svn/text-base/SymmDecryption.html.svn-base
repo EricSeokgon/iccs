@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<script language="javascript" src="init.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+/*
+function init()
+{
+  var Ret;
+ 
+  Ret =  document.CC_Object_id.SetCommonInfoFromVal("211.192.169.70",4502, 
+                                               "211.192.169.180",389, 
+                                               "211.192.169.180",389,
+                                               "CN=ROOT-RSA-CRL,OU=ROOTCA,O=KISA,C=KR", 
+                                               "no", 
+                                               "1.2.410.200004.2.1|1.2.410.200004.5.1.1.5|1.2.410.200004.5.1.1.7|1.2.410.200004.5.2.1.1|1.2.410.200004.5.2.1.2|1.2.410.200004.5.3.1.1|1.2.410.200004.5.3.1.2|1.2.410.200004.5.3.1.4|1.2.410.200004.5.4.1.1|1.2.410.200004.5.4.1.2|1.2.410.200004.5.4.1.3|1.2.410.200004.5.4.1.4|1.2.410.200004.5.4.1.5|1.2.410.200004.5.4.1.7|1.2.410.200005.1.1.1|1.2.410.200005.1.1.5|1.2.410.200012.1.1.1|1.2.410.200012.1.1.3");
+								
+    if ( Ret != 0 )
+    { 
+         alert( "인증 초기 설정에 실패하였습니다." );
+         return false;
+    }
+    else
+    {
+         return true;
+    }
+}
+*/
+
+
+
+function SymmDecryption(seq, alg, pwd)
+{
+	init();
+	var origin;
+	var enc_data;
+	var enc_cert;
+	
+	if( document.test.enc_data[seq].value == null || document.test.enc_data[seq].value == "" )
+	{
+		alert("암호화할 원문 값을 넣어주십시요");
+		return;
+	}
+   
+	// 암호화
+	origin =  document.CC_Object_id.SymmDecryption(alg, pwd, document.test.enc_data[seq].value);
+
+  	if( origin != null && origin != "" )
+	{
+		alert("복호화 성공");
+		document.test.src[seq].value = origin
+
+	}
+	else
+	{
+		errmsg = document.CC_Object_id.GetErrorContent();
+		errcode = document.CC_Object_id.GetErrorCode();
+		alert( "SymmEncryption :"+errmsg );
+		return;
+	}   
+
+}
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY>
+● 암호화(대칭형)<br><br>
+● 개요 : 입력된 대칭키 암호 알고리즘과 키를 사용하여 테이터를 복호화 한다.<br><br>
+● 사용된 함수<br><br>
+♣ SetCommonInfoFromVal() : 전자인증 웹모듈(CC_Object_id) 초기 환경설정<br>
+♣ SymmDecryption(암호알고리즘, 비밀번호, 암호테이타) : 암호화. 암호알고리즘 : SEED, 3DES, RC2
+
+<form name="test">
+<div align = center>
+<table>
+  <tr> 
+	<td align="center"> 원본<br>
+	  <textarea name="src" rows="5" cols="40"></textarea>
+	</td>
+	<td align="center"> 암호화값(SEED)<br>
+	  <textarea name="enc_data" rows="5" cols="40">1uj8Y+A5DcmlDQDGnQ14J7NuSo/7v9VDCzQdWqcYCB/D3OkWJbEogHq8v6TFzCfD</textarea>
+	</td>
+  <tr> 
+	<td align="center">&nbsp;</td>
+	<td align="center"><input type = button value = "복호화(대칭형 - SEED, 0123456789)" OnClick = "SymmDecryption('0', 'SEED', '0123456789')">
+	<br><br>
+	</td>
+  </tr>
+  <tr> 
+	<td align="center"> 원본<br>
+	  <textarea name="src" rows="5" cols="40"></textarea>
+	</td>
+	<td align="center"> 암호화값(3DES)<br>
+	  <textarea name="enc_data" rows="5" cols="40">Qb6Qmj778t2paXz4dmSN5ZKQPQ4qCUWwP6QANcb8f2tZhPx74I3WCUsDd1rLgUrH</textarea>
+	</td>
+  <tr> 
+	<td align="center">&nbsp;</td>
+	<td align="center">
+	<input type = button value = "복호화(대칭형 - 3DES, 0123456789)" OnClick = "SymmDecryption('1', '3DES','0123456789')">
+	<br><br>
+	</td>
+  </tr>
+  <tr> 
+	<td align="center"> 원본<br>
+	  <textarea name="src" rows="5" cols="40"></textarea>
+	</td>
+	<td align="center"> 암호화값(RC2)<br>
+	  <textarea name="enc_data" rows="5" cols="40">WpaPIvuPnxlNYgtonpDVIKTCRs32XStrTlIfhVQRZtMtah+mihO8wE2ds88RXnwI</textarea>
+	</td>
+  <tr> 
+	<td align="center">&nbsp;</td>
+	<td align="center">
+	<input type = button value = "복호화(대칭형 - RC2, 0123456789)" OnClick = "SymmDecryption('2', 'RC2', '0123456789')">
+	</td>
+  </tr>
+</table>
+</div>
+</form>
+
+<!--<center><iframe src="refer.html" frameborder="0" width="800" height="300" marginwidth="0" marginheight="0" scrolling="auto"></iframe></center>//-->
+
+</BODY>
+</HTML>
+<script language="javascript" src="cc.js"></script>
+<!-- 전자인증 모듈 //-->
+<script language="javascript" src="CC_Object.js"></script>

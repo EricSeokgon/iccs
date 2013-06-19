@@ -1,0 +1,57 @@
+#!/bin/sh
+
+. jeus.properties
+
+echo "***************************************************************"
+echo "  - JEUS Home         : ${JEUS_HOME}                           "
+echo "  - JEUS Base Port    : ${JEUS_BASEPORT}                       "
+echo "  - Java Vendor       : ${JAVA_VENDOR}                         "
+echo "  - Added Java Option : ${JAVA_ARGS}                           "
+echo "***************************************************************"
+
+BOOT_PARAMETER=$*
+
+if [ ! -z "${USERNAME}" ]
+then
+    BOOT_PARAMETER="-U${USERNAME} -P${PASSWORD}"
+fi
+
+echo ${JAVA_HOME}/bin/java $VM_OPTION  $SESSION_MEM                     \
+    -Xbootclasspath/p:${JEUS_HOME}/lib/system/extension.jar:${JEUS_HOME}/lib/system/extensionReflection.jar             \
+    -classpath ${JEUS_HOME}/lib/system/bootstrap.jar                    \
+    -Dsun.rmi.dgc.client.gcInterval=3600000                             \
+    -Dsun.rmi.dgc.server.gcInterval=3600000                             \
+    -Djava.library.path=${LIBPATH}                              \
+    -Djava.naming.factory.initial=jeus.jndi.JNSContextFactory           \
+    -Djava.naming.factory.url.pkgs=jeus.jndi.jns.url                    \
+    -Djava.net.preferIPv4Stack=true                                     \
+    -Djava.util.logging.config.file=${JEUS_HOME}/bin/logging.properties \
+    -Djeus.home=${JEUS_HOME}                                            \
+    -Djeus.baseport=${JEUS_BASEPORT}                                    \
+    -Djeus.jvm.version=${VM_TYPE}                                       \
+    -Djeus.tm.checkReg=true                                             \
+    -Djeus.tool.webadmin.locale.language=${JEUS_LANG}                   \
+    -Djeus.net.reuseAddress=true                                        \
+    -Djeus.properties.replicate=jeus,sun.rmi,java.util,java.net         \
+    ${JAVA_ARGS}                                                        \
+    jeus.server.JeusBootstrapper ${BOOT_PARAMETER}
+
+${JAVA_HOME}/bin/java $VM_OPTION  $SESSION_MEM                          \
+    -Xbootclasspath/p:${JEUS_HOME}/lib/system/extension.jar:${JEUS_HOME}/lib/system/extensionReflection.jar             \
+    -classpath ${JEUS_HOME}/lib/system/bootstrap.jar                    \
+    -Dsun.rmi.dgc.client.gcInterval=3600000                             \
+    -Dsun.rmi.dgc.server.gcInterval=3600000                             \
+    -Djava.library.path=${LIBPATH}:/usr/local/CrossCertLIB                              \
+    -Djava.naming.factory.initial=jeus.jndi.JNSContextFactory           \
+    -Djava.naming.factory.url.pkgs=jeus.jndi.jns.url                    \
+    -Djava.net.preferIPv4Stack=true                                     \
+    -Djava.util.logging.config.file=${JEUS_HOME}/bin/logging.properties \
+    -Djeus.home=${JEUS_HOME}                                            \
+    -Djeus.baseport=${JEUS_BASEPORT}                                    \
+    -Djeus.jvm.version=${VM_TYPE}                                       \
+    -Djeus.tm.checkReg=true                                             \
+    -Djeus.tool.webadmin.locale.language=${JEUS_LANG}                   \
+    -Djeus.net.reuseAddress=true                                        \
+    -Djeus.properties.replicate=jeus,sun.rmi,java.util,java.net         \
+    ${JAVA_ARGS}                                                        \
+    jeus.server.JeusBootstrapper ${BOOT_PARAMETER}

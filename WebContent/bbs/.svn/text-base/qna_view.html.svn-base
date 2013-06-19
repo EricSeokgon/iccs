@@ -1,0 +1,220 @@
+<html>
+<head>
+<title>Q&amp;A 보기</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<meta http-equiv=imagetoolbar content=no>
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+</head>
+
+<body>
+<table width="670" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td>
+	<!--상단 정보:시작 -->
+	<table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><img src="images/view_top.gif" width="670" height="2"></td>
+          </tr>
+          <tr>
+            <td><table width="670" height="30" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="60" align="center" class="td_view_title"><img src="images/view_title.gif" alt="제목"></td>
+                <td class="td_view_detail"><!--제목자리 -->
+                  <strong><img src="images/ico_answerBig.gif" alt="답변" width="36" height="16" align="absmiddle"> 2009년 공사업등록 작성요령 매뉴얼</strong></td>
+                <td width="60" align="center" class="td_view_title"><img src="images/view_date.gif" alt="등록일"></td>
+                <td width="90" align="center"><!--등록일자리 -->2009.3.10</td>
+              </tr>
+				
+            </table></td>
+          </tr>
+          <tr>
+            <td><img src="images/view_dot_line.gif" width="670" height="1"></td>
+          </tr>
+          <tr>
+            <td><table width="670" height="30" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="60" align="center" class="td_view_title"><img src="images/view_name.gif" alt="작성자"></td>
+                <td class="td_view_detail">홍길동</td>
+                <td width="60" align="center" class="td_view_title"><img src="images/view_hit.gif" alt="조회수"></td>
+                <td width="90" align="center"><!--조회수자리 -->1</td>
+              </tr>
+              
+            </table></td>
+          </tr>
+		  <tr>
+            <td class="line_1ededed"></td>
+          </tr>
+      </table>
+	  <!--상단 정보:끝 --></td>
+  </tr>
+  <tr> 
+    <td class="td_detail"><!--내용자리 --><p>해양수산부는 8월 10일 마린바이오21사업 연구단장 3명을 사업별로 최종 선정하고, 임명장을 수여하였다. </p>
+      <p>? 선정된 연구단장을 살펴보면 ‘해양·극한생물 분자유전체 연구단장’에는 김상진(金尙珍) 한국해양연구원 해양생명공학연구센터장, ‘해양바이오 프로세스 연구단장’에는 김세권(金世權) 부경대학교 화학과 교수, ‘해양천연물 신약 연구단’에는 강헌중(姜憲中) 서울대학교 지구환경과학부 교수가 최종 선정되었다. </p>
+      <p>? 금번 연구단장 선정은 산·학·연 전문가 등으로 구성된 전문평가위원회(14명)의 발표패널평가와 해양수산부 차관(위원장)을 비롯한 민간전문가로 구성된 면접위원회의 면접평가 등 2단계 절차를 걸쳐 선정하였다. </p>
+      <p>?『마린바이오21사업』은 2013년까지 세계적인 해양바이오 핵심기술 및 4KB제품개발을 목적으로 추진하는 중장기 국가연구개발사업으로 ‘해양·극한생물 분자유전체 연구단’등 3개 연구단이 추진한다. </p>    </td>
+  </tr>
+    <!--질문:시작 -->
+	<tr> 
+    <td align="center"  style="padding:10 0 20 0;">
+	
+      <table width="650">
+      <tr>
+        <td><img src="images/view_title_question.gif" alt="질문"></td>
+      </tr>
+      <tr>
+        <td><table width="650" border="0" cellpadding="0" cellspacing="1" bgcolor="#ededed">
+          <tr>
+            <td bgcolor="#ffffff">
+			<table width="650" height="30" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="60" align="center" class="td_view_title"><img src="images/view_title.gif" alt="제목"></td>
+                <td class="td_view_detail">
+				<!--제목자리 --><strong> 2009년 공사업등록 작성요령 매뉴얼</strong></td>
+                <td width="60" align="center" class="td_view_title"><img src="images/view_date.gif" alt="등록일"></td>
+                <td width="90" align="center">
+				<!--등록일자리 -->2009.3.10</td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td bgcolor="#ffffff">
+			<table width="650" height="30" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="60" align="center" class="td_view_title"><img src="images/view_name.gif" alt="작성자"></td>
+                <td class="td_view_detail"><!--작성자자리 -->홍길동</td>
+                <td width="60" align="center" class="td_view_title"><img src="images/view_hit.gif" alt="조회수"></td>
+                <td width="90" align="center">
+				<!--조회수자리 -->1</td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td bgcolor="#ffffff" class="td_detail">부산광역시인사위원회 공고 제2009 - 5호<br>
+              2009년도 부산광역시공무원 임용시험 계획 공고<br>
+              2009년도 부산광역시 공무원임용시</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+	</td>
+  </tr>
+  <!--질문:끝 -->
+  <tr>
+    <td height="2"><img src="images/view_bottom.gif"></td>
+  </tr>
+  <!--댓글쓰기:시작 -->
+  <tr> 
+    <td style="padding:20 0 0 0;"><table width="670" border="0" cellpadding="0" cellspacing="0" background="images/reply_bg.gif">
+      <tr>
+        <td height="20" valign="top"><img src="images/reply_top.gif" width="670" height="12"></td>
+      </tr>
+      <tr>
+        <td align="center">
+		<table width="640" border="0" cellpadding="0" cellspacing="6" bgcolor="#FFFFFF">
+          <tr>
+            <td align="right"><img src="images/reply_comment.gif" alt="COMMENT" width="48" height="16"></td>
+            <td width="480"><textarea name="COMMENT_MEMO" cols="55" rows="3" style='width:480px; height:46px; overflow:auto; background-color: #FFFFFF' 
+				  			onkeyup='javascript:commentCK(200);' required="한줄 답변 내용을 입력해 주십시오"></textarea></td>
+            <td><img src="images/bt_reply_ok.gif" alt="등록" class="cursor"></td>
+          </tr>
+          <tr>
+            <td colspan="3" align="center"><table width="480" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="sfont_gray99"><strong>(100자 이내/ HTML Tag불가)</strong></td>
+                  <td align="right" class="sfont_gray99"><input type=text class=box style='width:25px' name="commentcount" value="0" readonly>
+                    byte/200 byte</td>
+                </tr>
+            </table></td>
+            </tr>
+        </table></td>
+      </tr>
+	  <!--댓글있을 때: 시작 -->
+	  <tr>
+	    <td align="center"><table width="660" border="0" cellspacing="10" cellpadding="0">
+          <tr>
+            <td>
+			<!--댓글1 : 시작 -->
+			<table width="640" border="0" cellspacing="5" cellpadding="0">
+              <tr>
+                <td width="80"><span class="sfont_orengeB">서울</span> <span class="sfont_gray99B">동래구군 </span></td>
+                <td>담당자 &nbsp;&nbsp;<span class="sfont_gray99">09.03.11 11:12</span>&nbsp;&nbsp;<a href="#" class="sfont_grayCCB">수정</a>&nbsp;<a href="#" class="sfont_grayCCB">삭제</a> </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>부산광역시인사위원회 공고 제2009 - 5호<br>
+                  2009년도 부산광역시공무원 임용시험 계획 공고<br>
+                  2009년도 부산광역시 공무원임용시험 계획을 다음과 같이 공고합니다.</td>
+              </tr>
+            </table>
+			<!--댓글1 :끝 --></td>
+          </tr>
+          <tr>
+            <td align="center"><img src="images/reply_dot_line.gif" width="633" height="1"></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="640" border="0" cellspacing="5" cellpadding="0">
+              <tr>
+                <td width="80"><span class="sfont_orengeB">서울</span> <span class="sfont_gray99B">동래구 </span></td>
+                <td>담당자 &nbsp;&nbsp;<span class="sfont_gray99">09.03.11 11:12</span>&nbsp;&nbsp;<a href="#" class="sfont_grayCCB">수정</a>&nbsp;<a href="#" class="sfont_grayCCB">삭제</a> </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>
+				<!--댓글수정:시작 -->
+				<table width="540" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="450"><textarea name="textarea" cols="55" rows="3" style='width:440px; height:40px; overflow:auto; background-color: #FFFFFF' 
+				  			onkeyup='javascript:commentCK(200);' required="한줄 답변 내용을 입력해 주십시오"></textarea></td>
+                    <td>
+					<img src="images/bt_reply_modify.gif" alt="등록" width="38" height="38" class="cursor">
+					<img src="images/bt_reply_cancel.gif" alt="등록" width="38" height="38" class="cursor"></td>
+					</tr>
+                  <tr>
+                    <td align="right" class="sfont_gray99" style=" padding:5 10 0 0;"><input type=text class=box style='width:25px' name="commentcount2" value="0" readonly>byte/200 byte</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                </table>
+				<!--댓글수정:끝 -->				</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+	    </tr>
+		<!--댓글있을 때: 끝 -->
+	  <tr>
+        <td height="20" valign="bottom"><img src="images/reply_bottom.gif" width="670" height="12"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <!--댓글쓰기:끝 -->
+  <tr>
+    <td style="padding:20 0 0 0;"> 
+	<!--버튼:시작 -->
+      <table width="100%" border="0" cellspacing="2" cellpadding="0">
+        <tr>
+          <td align="right">
+		  <!--수정버튼 --><img src="images/btn_modify.gif" alt="수정" width="46" height="19" class="cursor"  onClick='Modify();'>
+          <!--삭제버튼 --><img src="images/btn_delete.gif" alt="삭제" width="46" height="19" class="cursor" onClick='Delete();'>
+		  <!--목록버튼 --><a href="#" onFocus="blur()"><img src="images/btn_list.gif" alt="목록" width="46" height="19" border="0" class="cursor"></a></td>
+        </tr>
+      </table>
+	<!--버튼:끝 -->
+	</td>
+  </tr>
+  <!--이전글:시작 -->
+  <tr>
+    <td style=" padding:15 0 0 10;"><table width="640" border="0" cellspacing="3" cellpadding="0">
+      <tr>
+        <td width="45"><img src="images/view_pre.gif" alt="이전글" width="36" height="12"></td>
+        <td><a href="#"><strong>공사업등록 작성요령 매뉴얼</strong></a>  &nbsp;&nbsp;<span class="sfont_gray99">| 2009.03.12 </span></td>
+      </tr>
+      <tr>
+        <td><img src="images/view_next.gif" alt="다음글" width="36" height="12"></td>
+        <td><a href="#"><strong>공사업등록 작성요령 매뉴얼 </strong></a>&nbsp;&nbsp;<span class="sfont_gray99">| 2009.03.12 </span></td>
+      </tr>
+    </table></td>
+  </tr>
+  <!--이전글:끝 -->
+</table>
+</body>
+</html>

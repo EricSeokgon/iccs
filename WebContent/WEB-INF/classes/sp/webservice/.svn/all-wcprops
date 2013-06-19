@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice
+END
+UBAgent.class
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice/UBAgent.class
+END
+UBAgentPortTypeProxy.class
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice/UBAgentPortTypeProxy.class
+END
+EchoPortTypeProxy.class
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice/EchoPortTypeProxy.class
+END
+UBAgentLocator.class
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice/UBAgentLocator.class
+END
+UBAgentSOAP12BindingStub.class
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice/UBAgentSOAP12BindingStub.class
+END
+UBAgentSOAP11BindingStub.class
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice/UBAgentSOAP11BindingStub.class
+END
+EchoPortType.class
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice/EchoPortType.class
+END
+EchoLocator.class
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice/EchoLocator.class
+END
+EchoSOAP12BindingStub.class
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice/EchoSOAP12BindingStub.class
+END
+EchoSOAP11BindingStub.class
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice/EchoSOAP11BindingStub.class
+END
+UBAgentPortType.class
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice/UBAgentPortType.class
+END
+Echo.class
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/%EC%8B%9C%EB%8F%84%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%AF%BC%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C/!svn/ver/62/iccs/WebContent/WEB-INF/classes/sp/webservice/Echo.class
+END

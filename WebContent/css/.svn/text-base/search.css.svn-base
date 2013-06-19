@@ -1,0 +1,52 @@
+/* search layout-YSM */
+@import url("style.css");
+@import url("layout.css");
+
+/* search-HMS   overflow:hidden;*/
+#pull_contents { position:relative; float: left; padding:0; margin:0 auto; width:860px; left:25px; text-align: left; letter-spacing:-0.1em; border:0px solid black; }
+.p10 {padding:10px 0 100px 20px; margin:10px 0; border:0px solid red;}
+
+	
+#tab {background: url(../images/search/tab_bg.gif) no-repeat; width: 860px; height: 32px; padding: 4px 0 0 20px;}
+#tab li {display: inline; float:left;  margin-right: 1px; padding: 0; }
+#tab li a {float:none; display:block; width: 120px; height: 26px; background: url(../images/search/tab_off.gif) no-repeat; padding-top: 4px; text-align:center;}
+#tab li a:hover {float:none; display:block; width: 120px; height: 26px; background: url(../images/search/tab_on.gif) no-repeat;}
+
+#input_search {position:relative; float:right; width:265px; height:23px; margin:16px 0 20px 4px; padding: 0; background:url(../images/search/input_search.gif) no-repeat; border:0px solid blue;}
+#input_search input.search {width:195px; height:18px; margin:1px 0 0 20px; padding:2px 2px 2px 3px;  background-color:transparent; BORDER: 0px solid #ccc;}
+
+#search_result {clear:right; padding-left:20px; margin-bottom:30px; font-size: 1.1em; font-weight:bold; border:0px solid black;}
+
+#search_page {position:relative; float: left; text-align: left; width:90%; border:0px solid black;}
+#faq_search_page {position:relative; float: left; text-align: left; width:670px; border:0px solid black;}
+.search_list_01 {position:relative;  width:800px; height:23px; float: left; background: url(../images/common/arrow_1.gif) no-repeat 0 50%; padding: 2px 0 2px 15px; font-weight:bold;  border-bottom: 1px solid #e8e8e8; }
+.search_list_text {float: left; font-size: 1.1em; font-weight:bold; width:700px; padding-top:4px;  border:0px solid black;}
+.search_all_view {position: absolute; right:0; top:0;}
+#search_page br {clear: both;}
+
+.result_page {float: left; padding: 10px 15px; text-align:left; border:0px solid black;}
+.list_style1 {background: url(../images/common/dot_1.gif) no-repeat 0 7px; padding-bottom: 3px;}
+.list_style2 {background: url(../images/common/arrow_2.gif) no-repeat 0 6px;}
+.list_style3 {background: url(../images/common/arrow_3.gif) no-repeat 0 6px;}
+.list_style2 a,
+.list_style3 a {font-weight: bold; }
+.list_none	{padding: 0px 0 0 7px; line-height: 1.4em;}
+
+.result_page a {padding: 5px 0 0 5px;}
+
+.detail_style1 {padding: 5px 0 20px 10px; line-height: 1.4em; word-break:break-all;}
+
+.page_url {color: #ff7f00; line-height: 1.2em; letter-spacing: 0.01em}
+.page_url1 {color: #79aa07; line-height: 1.2em; letter-spacing: 0.01em}
+.page_url2 {color: #5b8bbf; line-height: 1.2em; letter-spacing: 0.01em}
+.data_file{background: url(../images/bbs/ico_file.gif) no-repeat 0 6px; color: #5b8bbf; line-height: 1.2em; letter-spacing: 0.01em; padding-left: 5px;}
+.data_file a,
+.data_file a:link,
+.data_file a:visited { font-weight: normal; color: #5b8bbf;}
+.data_file a:HOVER{text-decoration: underline;}
+
+#search_contents {position:relative; float: left; text-align: left; width:820px; border:0px solid black;}
+#search_data 	{position:relative; float: left; text-align: left; width:820px; border:0px solid black;}
+
+#search_result_paging {width:860px; padding:50px 0 20px 0px; margin:0; text-align:-moz-center;/* FF */ *text-align:center;/* IE */ border:0px solid green;}
+

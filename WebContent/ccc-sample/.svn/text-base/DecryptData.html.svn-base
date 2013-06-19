@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function init()
+{
+  var Ret;
+ 
+  Ret =  document.CC_Object_id.SetCommonInfoFromVal("211.192.169.70",4502, 
+                                               "211.192.169.180",389, 
+                                               "211.192.169.180",389,
+                                               "CN=ROOT-RSA-CRL,OU=ROOTCA,O=KISA,C=KR", 
+                                               "no", 
+                                               "1.2.410.200004.2.1|1.2.410.200004.5.1.1.5|1.2.410.200004.5.1.1.7|1.2.410.200004.5.2.1.1|1.2.410.200004.5.2.1.2|1.2.410.200004.5.3.1.1|1.2.410.200004.5.3.1.2|1.2.410.200004.5.3.1.4|1.2.410.200004.5.4.1.1|1.2.410.200004.5.4.1.2|1.2.410.200004.5.4.1.3|1.2.410.200004.5.4.1.4|1.2.410.200004.5.4.1.5|1.2.410.200004.5.4.1.7|1.2.410.200005.1.1.1|1.2.410.200005.1.1.5|1.2.410.200012.1.1.1|1.2.410.200012.1.1.3");
+								
+    if ( Ret != 0 )
+    { 
+         alert( "인증 초기 설정에 실패하였습니다." );
+         return false;
+    }
+    else
+    {
+         return true;
+    }
+}
+
+
+
+function DecryptData()
+{
+	init();
+	var origin;
+	var enc_data;
+	var enc_cert;
+	
+	if( document.test.enc_data.value == null || document.test.enc_data.value == "" )
+	{
+		alert("복호화할 값을 넣어주십시요");
+		return;
+	}
+   
+	origin =  document.CC_Object_id.DecryptData(document.test.enc_data.value, "");
+		
+	
+	if( origin != null && origin != "" )
+	{
+		alert("암호화 성공");
+		document.test.src.value = origin;
+
+	}
+	else
+	{
+		errmsg = document.CC_Object_id.GetErrorContent();
+		errcode = document.CC_Object_id.GetErrorCode();
+		alert( "SignVerify :"+errmsg );
+		return;
+	}   
+
+}
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY>
+● 복호화(비대칭형)<br><br>
+● 개요 : 암호화된 데이타를 암호화된 인증서의 공개키로 풀어서 원문을 생성한다. 암호화에 사용된 인증서를 선택해야 한다. 또한 비밀번호가 없을 때에는 비밀번호 입력창이 나타난다.<br>
+● 사용된 함수<br><br>
+ ♣ SetCommonInfoFromVal() : 전자인증 웹모듈(CC_Object_id) 초기 환경설정<br>
+ ♣ DecryptData(암호화값, 암호화에 사용한 인증서비밀번호) : 복호화
+
+<form name="test">
+<div align = center>
+<table>
+  <tr> 
+	<td align="center"> 원본<br>
+	  <textarea name="src" rows="20" cols="40"></textarea>
+	</td>
+	<td align="center"> 암호화값<br>
+	  <textarea name="enc_data" rows="20" cols="40">MIIBWwYJKoZIhvcNAQcDoIIBTDCCAUgCAQExge0wgeoCAQEwUzBMMQswCQYDVQQGEwJLUjESMBAGA1UEChMJQ3Jvc3NDZXJ0MRMwEQYDVQQLEwpsaWNlbnNlZENBMRQwEgYDVQQDEwtDcm9zc0NlcnRDQQIDAQq+MA0GCSqGSIb3DQEBAQUABIGAkXOtloGKaUHuS1Kkd0uYEb/ixyYzURUeFNAaMWsND9+1CrydiY3XcgOnxvtMAbM9mi8UyNWarRsFOXgU0vorYdh3wd0XWXSy7WEF072WmvU1XHErhNZjEP/08XpM78IDFWBIgnmLTXuPRTkgYCpTuSBLgw6u/jX2x0bxrdOXW4UwUwYJKoZIhvcNAQcBMBQGCCqGSIb3DQMHBAjAw0sIMBMFPIAw1IXUSOKen90EwN6CYLrgAxcwAXPs7ip2JGCRK5jeM1eicg6/KO5vGvgqXZx18SDb</textarea>
+	</td>
+  <tr> 
+	<td align="center">&nbsp;</td>
+	<td align="center"><input type = button value = "복호화(비대칭형)" OnClick = "DecryptData()"><br><br>
+	
+	</td>
+  </tr>
+</table>
+</div>
+</form>
+
+
+<!--<center><iframe src="refer.html" frameborder="0" width="800" height="300" marginwidth="0" marginheight="0" scrolling="auto"></iframe></center>//-->
+
+
+</HTML>
+
+<script language="javascript" src="cc.js"></script>
+<!-- 전자인증 모듈 //-->
+<script language="javascript" src="CC_Object.js"></script>
